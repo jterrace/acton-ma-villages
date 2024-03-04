@@ -11,8 +11,13 @@ A [public domain map of Acton neighborhoods](https://en.wikipedia.org/wiki/File:
 ## Acton Center
 ## North Acton
 ## South Acton
+
+The [Acton Town Plans and Studies](https://www.acton-ma.gov/168/Town-Plans-and-Studies) links to the [South Acton Village Plan](https://www.acton-ma.gov/DocumentView.asp?DID=112) which has a map on page 61.
+
 ## East Acton
 
 The [Acton Town Plans and Studies](https://www.acton-ma.gov/168/Town-Plans-and-Studies) links to the [East Acton Village Plan](https://www.acton-ma.gov/DocumentView.asp?DID=113) which has a map on page 52.
 
 ## West Acton
+
+The [Acton Town Plans and Studies](https://www.acton-ma.gov/168/Town-Plans-and-Studies) links to the [West Acton Village Plan](https://www.acton-ma.gov/DocumentView.asp?DID=111) which has a map on page 38.
