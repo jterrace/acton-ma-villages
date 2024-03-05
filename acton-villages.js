@@ -10,8 +10,15 @@ async function initMap() {
     center: acton
   });
 
-  const kmlLayer = new google.maps.KmlLayer({
-    url: "https://jterrace.github.com/acton-ma-villages/Villages.kml",
+  const villagesLayer = new google.maps.KmlLayer({
+    url: "https://jterrace.github.io/acton-ma-villages/Villages.kml",
+    preserveViewport: true,
+    map: map,
+  });
+
+  const historicLayer = new google.maps.KmlLayer({
+    url: "https://jterrace.github.io/acton-ma-villages/HistoricDistricts.kml",
+    preserveViewport: true,
     map: map,
   });
 }
