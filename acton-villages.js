@@ -11,7 +11,7 @@ async function initMap() {
   });
 
   const southActonLayer = new google.maps.KmlLayer({
-    url: "https://jterrace.github.io/acton-ma-villages/South-Acton-Bounding.kml",
+    url: "https://jterrace.github.io/acton-ma-villages/kml/South-Acton-Bounding.kml",
     preserveViewport: true,
     map: map,
   });
