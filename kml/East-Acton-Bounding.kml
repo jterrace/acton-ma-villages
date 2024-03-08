@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="bounding_geometry" id="bounding_geometry">
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="area" type="float"></SimpleField>
+	<SimpleField name="perimeter" type="float"></SimpleField>
+</Schema>
+<Folder><name>bounding_geometry</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bounding_geometry">
+		<SimpleData name="id">0</SimpleData>
+		<SimpleData name="area">0.000023</SimpleData>
+		<SimpleData name="perimeter">0.022452</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.40659,42.472328 -71.410654,42.474784 -71.410728,42.47483 -71.4108,42.474878 -71.41087,42.474928 -71.410937,42.474979 -71.413596,42.477838 -71.413806,42.478736 -71.412637,42.479425 -71.412589,42.479407 -71.410693,42.478684 -71.405426,42.474058 -71.405976,42.47324 -71.40659,42.472328</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
