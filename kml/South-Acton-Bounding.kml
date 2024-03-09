@@ -8,6 +8,7 @@
 </Schema>
 <Folder><name>bounding_geometry</name>
   <Placemark>
+    <name>South Acton Village</name>
 	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
 	<ExtendedData><SchemaData schemaUrl="#bounding_geometry">
 		<SimpleData name="id">0</SimpleData>
