@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="bounding_geometry" id="bounding_geometry">
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="area" type="float"></SimpleField>
+	<SimpleField name="perimeter" type="float"></SimpleField>
+</Schema>
+<Folder><name>bounding_geometry</name>
+  <Placemark>
+    <name>North Acton Village</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bounding_geometry">
+		<SimpleData name="id">0</SimpleData>
+		<SimpleData name="area">0.000027</SimpleData>
+		<SimpleData name="perimeter">0.020203</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.414047,42.510793 -71.414116,42.510795 -71.414184,42.510798 -71.414316,42.510807 -71.414441,42.510819 -71.414566,42.510833 -71.41469,42.510851 -71.414812,42.510872 -71.414934,42.510896 -71.415563,42.511028 -71.417758,42.512702 -71.417631,42.513658 -71.417334,42.514571 -71.417222,42.514907 -71.413517,42.515565 -71.41088,42.515531 -71.410138,42.515318 -71.410483,42.514021 -71.410732,42.513113 -71.413316,42.51085 -71.41332,42.510847 -71.413323,42.510845 -71.413328,42.510842 -71.413336,42.510838 -71.413342,42.510836 -71.413354,42.510832 -71.413363,42.51083 -71.413369,42.510829 -71.413737,42.510806 -71.41382,42.510801 -71.413911,42.510796 -71.413979,42.510794 -71.414047,42.510793</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

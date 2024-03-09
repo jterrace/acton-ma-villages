@@ -85,8 +85,12 @@ function showInnerVillages() {
     afterParse: loadKml,
     zoom: false
   });
+
+  kml_parser.parse("kml/Acton-Center-Bounding.kml");
   kml_parser.parse("kml/East-Acton-Bounding.kml");
+  kml_parser.parse("kml/North-Acton-Bounding.kml");
   kml_parser.parse("kml/South-Acton-Bounding.kml");
+  kml_parser.parse("kml/West-Acton-Bounding.kml");
 }
 
 function loadKml(doc) {

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="bounding_geometry" id="bounding_geometry">
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="area" type="float"></SimpleField>
+	<SimpleField name="perimeter" type="float"></SimpleField>
+</Schema>
+<Folder><name>bounding_geometry</name>
+  <Placemark>
+    <name>West Acton Village</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#bounding_geometry">
+		<SimpleData name="id">0</SimpleData>
+		<SimpleData name="area">0.000013</SimpleData>
+		<SimpleData name="perimeter">0.018015</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.473978,42.47531 -71.474793,42.475335 -71.475538,42.475365 -71.475877,42.475929 -71.475877,42.476833 -71.474397,42.477664 -71.474127,42.477758 -71.472119,42.477552 -71.469173,42.476739 -71.467875,42.476166 -71.467865,42.476158 -71.467836,42.476121 -71.467805,42.476077 -71.467787,42.476043 -71.467778,42.476022 -71.473978,42.47531</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
