@@ -8,6 +8,8 @@ The Acton wikipedia page has a [section on the five village centers](https://en.
 
 A [public domain map of Acton neighborhoods](https://en.wikipedia.org/wiki/File:Acton_ma_map.svg) was uploaded in 2011 to Wikipedia based on USGS data.
 
+The town GIS department sent me GIS data containing the Acton villages (North, East, West, South) and Historic Districts (Center, West, South). This data is stored in `kml/Villages.kml` and `kml/HistoricDistricts.kml`, respectively.
+
 ### Acton Center
 ### North Acton
 ### South Acton
